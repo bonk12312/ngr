@@ -6,13 +6,13 @@ const CountdownTimer: React.FC = () => {
   useEffect(() => {
     const calculateTimeLeft = () => {
       const now = new Date();
-      const tomorrow = new Date(now);
-      tomorrow.setDate(tomorrow.getDate() + 1);
-      tomorrow.setHours(18, 0, 0, 0); // 6 PM tomorrow
+      const todayTarget = new Date(now);
+todayTarget.setHours(18, 0, 0, 0); // 6 PM today
+
       
       // Convert to Chisinau time (UTC+2)
       const chisinauOffset = 2 * 60 * 60 * 1000; // 2 hours in milliseconds
-      const targetTime = tomorrow.getTime() + chisinauOffset;
+      const targetTime = todayTarget.getTime() + chisinauOffset;
       const currentTime = now.getTime() + chisinauOffset;
       
       const difference = targetTime - currentTime;
