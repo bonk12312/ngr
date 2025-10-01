@@ -7,7 +7,7 @@ const CountdownTimer: React.FC = () => {
     const calculateTimeLeft = () => {
       const now = new Date();
       const todayTarget = new Date(now);
-todayTarget.setHours(18, 0, 0, 0); // 6 PM today
+todayTarget.setHours(21, 0, 0, 0); // 6 PM today
 
       
       // Convert to Chisinau time (UTC+2)
