@@ -109,7 +109,7 @@ const Hero: React.FC = () => {
                   <span className="text-yellow-400 glow-text">&gt; ALGORITHM</span>
                 </div>
                 <div className="text-lg md:text-xl font-mono mb-2 text-yellow-400 font-bold">
-                  BSC PROJECT
+                  SOLANA PROJECT
                 </div>
                 <div className="text-sm md:text-base font-mono mb-2 text-gray-300">
                   // The AI that <span className="text-yellow-400 font-bold">never stops</span>

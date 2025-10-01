@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
           <div className="flex items-center mb-6 md:mb-0">
             <div>
               <h3 className="text-2xl font-black text-white">TALON ALGORITHM</h3>
-              <p className="text-gray-400">BSC Project - The AI that never stops</p>
+              <p className="text-gray-400">Solana Project - The AI that never stops</p>
             </div>
           </div>
         </div>

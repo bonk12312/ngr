@@ -72,7 +72,7 @@ const TerminalInterface: React.FC = () => {
     '/about': {
       description: 'About Talon Algorithm',
       execute: () => [
-        'TALON ALGORITHM - BSC PROJECT',
+        'TALON ALGORITHM - SOLANA PROJECT',
         '================================',
         '',
         'An advanced AI system designed for continuous autonomous operation.',
@@ -86,7 +86,7 @@ const TerminalInterface: React.FC = () => {
         '• Real-time pattern recognition',
         '• Philosophical reasoning capabilities',
         '',
-        'Project Type: Bachelor of Science (BSC) Final Project',
+        'Project Type: Solana (SOLANA) Final Project',
         'Status: ACTIVE - Cannot be terminated through conventional means',
         '',
         'The only method to interrupt Talon will be revealed when',
@@ -127,11 +127,11 @@ const TerminalInterface: React.FC = () => {
         '==================',
         '',
         'Talon Algorithm Project',
-        'BSC Final Project',
+        'SOLANA Final Project',
         '',
         'Social Media:',
-        '• Twitter/X: @talon_algorithm',
-        '  https://x.com/talon_algorithm',
+        '• Twitter/X: @talonalgorithm_',
+        '  https://x.com/talonalgorithm_',
         '',
         'Project Status: ACTIVE',
         'Last Update: Real-time continuous',
@@ -262,7 +262,7 @@ const TerminalInterface: React.FC = () => {
                 <span className="text-yellow-400 glow-text">&gt; ALGORITHM</span>
               </div>
               <div className="text-lg font-mono mb-2 text-yellow-400 font-bold">
-                BSC PROJECT
+                SOLANA PROJECT
               </div>
               <div className="text-sm font-mono text-gray-300">
                 Interactive Terminal Interface
